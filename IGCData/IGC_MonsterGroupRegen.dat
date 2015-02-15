@@ -1,0 +1,84 @@
+//############################################################
+//# -- INTERNATIONAL GAMING CENTER NETWORK
+//# -- www.igc-network.com
+//# -- (C) 2010-2014 IGC-Network (R)
+//# -----------------------------------------------------------------------
+//# -- Modify if you know what you do only!
+//# -- File is a part of IGCN Group MuOnline Server files.
+//############################################################
+
+
+// System spawns groups of monsters on specified criteria below
+
+
+// GroupNumberIndex - Specified a group of Monsters aka Index (Unique in this section)
+// MapNumber - Map Number to spawn the Monsters on
+// RespawnTime - Time in milliseconds to respawn the Monster Group after killing last monster from current respawn
+// GroupBossIndex - Boss Monster Index for the Group ('\Data\Monster\Settings\Monster(_ex700).txt)
+// GroupBossRegenType:
+//				1: If GroupBossIndex not killed within RespawnTime then monsters of GroupNumberIndex will be deleted and re-spawned
+//				If killed GroupBossIndex within RespawnTime then next respawn occurs after configured RespawnTime (section 3 is not used for this spawn type)
+// 				2: GroupNumberIndex spawn occurs at time specified in section 3. If GroupBossIndex not killed until next spawn time (section 3) then re-spawn
+//				of GroupNumberIndex is skipped. Re-spawn occurs only if GroupBossIndex is killed on spawn time check.
+// Group Description
+
+
+// -- GroupRegen Time Settings -------------------------------------------------------------------------------------
+// =================================================================================================================
+// GroupNumberIndex		MapNumber		RespawnTime (ms)	GroupBossIndex		GroupBossRegenType		Description
+// =================================================================================================================
+// -----------------------------------------------------------------------------------------------------------------
+0 // DO NOT REMOVE SECTION NUMBER 	
+	0					56				60000				561					2						// Medusa
+end
+
+
+// Group Number - specifies the index of the group to be spawned (see GroupNumberIndex in section 0)
+// BeginX, BeginY, EndX, EndY - Area the specified group will spawn on:
+//				- BeginX: start point X coordinate of the Spawn area (BeginX must be greater than EndX)
+//				- BeginY: start point Y coordinate of the Spawn area (BeginY must be greater than EndY)
+//				- EndX: end point X coordinate of the Spawn Area (EndX must be lower than BeginX)
+//				- EndX: end point X coordinate of the Spawn Area (EndY must be lower than BeginY)
+
+// -- GroupRegen Spot ----------------------------------------
+// ===========================================================
+// GroupNumber		BeginX		BeginY		EndX		EndY
+// ===========================================================
+// -----------------------------------------------------------
+1 // DO NOT REMOVE SECTION NUMBER 
+	0				50			103			57			114
+	0				127			162			136			171
+	0				149			10			162			19
+	0				178			114			184			129
+end
+
+
+// Group Number - specifies the index of the group to be spawned (see GroupNumberIndex in section 0)
+// MonsterIndex - Monsters registered within the GroupNumberIndex ('\Data\Monster\Settings\Monster(_ex700).txt')
+// Count of Monsters to respawn
+ 
+// -- GroupRegen Member --------------------------------------
+// ===========================================================
+// GroupNumber		MonsterIndex		MonsterCount
+// ===========================================================
+// -----------------------------------------------------------
+2 // DO NOT REMOVE SECTION NUMBER 
+	0				560					7
+	0				561					1
+end
+
+
+// Group Number - specifies the index of the group to be spawned (see GroupNumberIndex in section 0)
+// StartTime - Start time the Spawn will occur (00-24)
+// EndTime - End time the Spawn occurs (00-24)
+
+// -- GroupRegen TimeType ------------------------------------
+// ===========================================================
+// GroupNumber		StartTime			EndTime
+// ===========================================================
+3 // DO NOT REMOVE SECTION NUMBER 
+	0				5					7
+	0				10					12
+	0				15					17
+	0				20					22
+end

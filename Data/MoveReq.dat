@@ -1,0 +1,54 @@
+//############################################################
+//# -- INTERNATIONAL GAMING CENTER NETWORK
+//# -- www.igc-network.com
+//# -- (C) 2010-2014 IGC-Network (R)
+//# ---------------------------------------------------------
+//# -- Modify if you know what you do only!
+//# -- File is a part of IGCN Group MuOnline Server files.
+//############################################################
+
+// Gate Numbers can be checked and configured in '\Data\GateSettings.dat'
+// Gates configuration must much Game Client file Gate.bmd
+// Note: Game Client MoveReq_xxx.bmd must much below configuration and exact order of entries
+
+// ============================================================================================
+// Index	MoveName(Server)		MoveName(Client)		MinLvl	MaxLvl	Zen		GateNumber
+// ============================================================================================
+// --------------------------------------------------------------------------------------------
+	1		"Arena"					"Arena"					50		400		2000		50
+	2		"Lorencia"				"Lorencia"				10		400		2000		17
+	3		"Noria"					"Noria"					10		400		2000		27
+	31		"Elbeland"				"Elveland"				10		400		2000		267
+	32		"Elbeland2"				"Elveland2"				10		400		2500		268
+	43		"Elbeland3"				"Elveland3"				10		400		3000		269
+	4		"Devias"				"Devias"				20		400		2000		22
+	5		"Devias2"				"Devias2"				20		400		2500		72
+	6		"Devias3"				"Devias3"				20		400		3000		73
+	7		"Devias4"				"Devias4"				20		400		3500		74
+	8		"Dungeon"				"Dungeon"				30		400		3000		2
+	9		"Dungeon2"				"Dungeon2"				40		400		3500		6
+	10		"Dungeon3"				"Dungeon3"				50		400		4000		10
+	11		"Atlans"				"Atlans"				70		220		4000		49
+	12		"Atlans2"				"Atlans2"				80		220		4500		75
+	13		"Atlans3"				"Atlans3"				90		220		5000		76
+	14		"LostTower"				"LostTower"				50		400		5000		42
+	15		"LostTower2"			"LostTower2"			50		400		5500		31
+	16		"LostTower3"			"LostTower3"			50		400		6000		33
+	17		"LostTower4"			"LostTower4"			60		400		6500		35
+	18		"LostTower5"			"LostTower5"			60		400		7000		37
+	19		"LostTower6"			"LostTower6"			70		400		7500		39
+	20		"LostTower7"			"LostTower7"			70		400		8000		41
+	21		"Tarkan"				"Tarkan"				140		400		8000		57
+	22		"Tarkan2"				"Tarkan2"				140		400		8500		77
+	25		"Aida1"					"Aida1"					150		400		8500		119
+	27		"Aida2"					"Aida2"					150		400		8500		140
+	23		"Icarus"				"Icarus"				170		400		10000		63
+	28		"Kanturu_ruin1"			"KanturuRuins1"			160		350		9000		138
+	29		"Kanturu_ruin2"			"KanturuRuins2"			160		350		9000		141
+	45		"Kanturu_ruin_island"	"KanturuRuins3"			160		400		15000		334
+	30		"Kanturu_Remain"		"KanturuRelics"			230		400		12000		139
+	46		"Karutan1"				"Karutan1"				170		400		13000		335
+	47		"Karutan2"				"Karutan2"				170		400		14000		344
+	34		"LaColen"				"LaCleon"				280		400		15000		287
+	33		"Swamp_of_Calmness"		"PeaceSwamp"			400		400		15000		273
+	42		"Vulcanus"				"Vulcanus"				30		400		15000		294

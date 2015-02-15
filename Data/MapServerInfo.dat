@@ -1,0 +1,88 @@
+//############################################################
+//# -- INTERNATIONAL GAMING CENTER NETWORK
+//# -- www.igc-network.com
+//# -- (C) 2010-2014 IGC-Network (R)
+//# ---------------------------------------------------------
+//# -- Modify if you know what you do only!
+//# -- File is a part of IGCN Group MuOnline Server files.
+//############################################################
+
+// Server Code     - Remember that Server Codes must match in all related configurables (same as in GameServer.ini for ServerCode)
+// MapServerGroup  - Define what Servers will be working within specified Server Group (keep all same if not requiring complex configuration)
+// InitSetting     - Always 1 for Non-Castle Siege Game Servers, otherwise 0
+// IpAddress       - Public IP, same as in GameServer.ini for GameServerPort (do not remove the S at beginning)
+// Port Number	   - Port Number of Game Server, same as in GameServer.ini for GameServerPort
+
+// =============================================================================
+// ServerCode	MapServerGroup	InitSetting	IpAddress			PortNum
+// =============================================================================
+// -----------------------------------------------------------------------------
+0 // DO NOT DELETE SECTION NUMBER
+	0				1					1		S167.114.117.209	56900
+	1				1					1		S167.114.117.209	56901
+	2				1					1		S167.114.117.209	56902
+	3				1					1		S167.114.117.209	56903
+	13				1					0		S167.114.117.209	56913
+	14				1					0		S167.114.117.209	56914
+end
+
+// Allows to decide what Map will be managed by what Game Server
+// Advanced Server moves configuration for complex servers setup
+// Remember that each time new (sub)Server is being added it has
+// to be referenced in config below (14 is sample of CS Server)
+
+// ========================================================
+// ServerCode	MoveAbleOption		Map		DestServerCode
+// ========================================================
+// --------------------------------------------------------
+1 // DO NOT DELETE SECTION NUMBER
+
+	0				0				30				14
+	0				0				31				14
+	0				0				34				14
+	0				0				41				14
+	0				0				42				14
+	0				0				79				14
+	0				0				92				13
+// --------------------------------------------------------
+	1				0				30				14
+	1				0				31				14
+	1				0				34				14
+	1				0				41				14
+	1				0				42				14
+	1				0				79				14
+	1				0				92				13
+// --------------------------------------------------------
+	13				0				30				14
+	13				0				31				14
+	13				0				34				14
+	13				0				41				14
+	13				0				42				14
+	13				0				79				14
+	13				1				92				-1
+// --------------------------------------------------------
+	14				1				30				-1
+	14				1				34				-1
+	14				1				31				-1
+	14				1				41				-1
+	14				1				42				-1
+	14				1				79				-1
+	14				0				92				13
+
+end
+
+2 // DO NOT DELETE SECTION NUMBER
+
+[GameServerInfo]
+// Version of your choice, digits only, format: x.yy.zz
+// Set same in ServerInfo.bmd - refer to documentation (ServerInfoTool)
+//------- Client Version ----------------------------------
+ClientExeVersion			= 1.04.17
+//---------------------------------------------------------
+
+// Serial of your choice, 16 alphanumerical characters
+// Set same in ServerInfo.bmd - refer to documentation
+//------- Client Serial -----------------------------------
+ClientExeSerial				= DinuguangTahong1
+//---------------------------------------------------------
+end		

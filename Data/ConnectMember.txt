@@ -1,0 +1,15 @@
+//############################################################
+//# -- INTERNATIONAL GAMING CENTER NETWORK
+//# -- www.igc-network.com
+//# -- (C) 2010-2014 IGC-Network (R)
+//# ---------------------------------------------------------
+//# -- Modify if you know what you do only!
+//# -- File is a part of IGCN Group MuOnline Server files.
+//############################################################
+
+// If 'ConnectMemberLoad = 1' at '\GameServer\Data\ServerInfo.dat'
+// then below nicknames can connect only, Current GameServer only,
+
+"admin01"
+"paylokasd1"
+"admin"

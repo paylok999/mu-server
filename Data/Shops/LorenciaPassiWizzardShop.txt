@@ -1,0 +1,65 @@
+//############################################################
+//# -- INTERNATIONAL GAMING CENTER NETWORK
+//# -- www.igc-network.com
+//# -- (C) 2010-2014 IGC-Network (R)
+//# ---------------------------------------------------------
+//# -- Modify if you know what you do only!
+//# -- File is a part of IGCN Group MuOnline Server files.
+//############################################################
+
+// For ItemCat and ItemIdx refer to '\Data\Items\ItemListSettings(_ex700).ini'
+// Lvl: 0-15
+// Durability: 0-255 (NOTE: some Items max durability is lower than maximum possible - 255)
+// Skill: 0, 1
+// Luck: 0, 1
+// Opt: 0-7 (Opt * 4, example, Opt -> 7 * 4 = Item Option +28
+// Exc: 0	= No Exc options, or sum of below values (63 - Full of Excellent):
+//		1	= Mana recovery after Monster hunt +Mana/8
+//		2	= Health recovery after Monster hunt +HP/8
+//		4	= +7 Speed
+//		8	= More Damage +2%
+//		16	= More Damage +Level/20
+//		32	= Excellent Damage Rate +10%
+// Ancient (item must be added to set items (ancients), otherwise option will be ignored:
+//		0	= No Ancient
+//		5	= First Set type (+5 Stamina)
+//		6	= Second Set type (+5 Stamina)
+//		9	= First Set type (+10 Stamina)
+//		10	= Second Set type (+10 Stamina)
+
+// ====================================================================================
+// ItemCat	ItemIdx	Lvl     Dur   Skill    Luck    Opt     Exc	Ancient		Description
+// ====================================================================================
+// ------------------------------------------------------------------------------------
+	7		2		0		100		0		1		1		0		0		//Pad Helm
+	8		2		0		100		0		1		1		0		0		//Pad Armor
+	9		2		0		100		0		1		1		0		0		//Pad Pants
+	10		2		0		100		0		1		1		0		0		//Pad Gloves
+	11		2		0		100		0		1		1		0		0		//Pad Boots
+	7		4		3		100		0		1		1		0		0		//Bone Helm
+	8		4		3		100		0		1		1		0		0		//Bone Armor
+	9		4		3		100		0		1		1		0		0		//Bone Pants
+	10		4		3		100		0		1		1		0		0		//Bone Gloves
+	11		4		3		100		0		1		1		0		0		//Bone Boots
+	7		7		5		100		0		1		1		0		0		//Sphinx Helm
+	8		7		5		100		0		1		1		0		0		//Sphinx Armor
+	9		7		5		100		0		1		1		0		0		//Sphinx Pants
+	10		7		5		100		0		1		1		0		0		//Sphinx Gloves
+	11		7		5		100		0		1		1		0		0		//Sphinx Boots
+	5		0		0		100		0		1		1		0		0		//Skull Staff
+	5		1		2		100		0		1		1		0		0		//Angelic Staff
+	5		2		3		100		0		1		1		0		0		//Serpent Staff
+	5		3		4		100		0		1		1		0		0		//Thunder Staff
+	15		0		0		255		0		0		0		0		0		//Scroll of Poison
+	15		1		0		255		0		0		0		0		0		//Scroll of Meteorite
+	15		2		0		255		0		0		0		0		0		//Scroll of Lightning
+	15		3		0		255		0		0		0		0		0		//Scroll of Fire Ball
+	15		4		0		255		0		0		0		0		0		//Scroll of Flame
+	15		5		0		255		0		0		0		0		0		//Scroll of Teleport
+	15		6		0		255		0		0		0		0		0		//Scroll of Ice
+	15		7		0		255		0		0		0		0		0		//Scroll of Twister
+	15		8		0		255		0		0		0		0		0		//Scroll of Evil Spirits
+	15		9		0		255		0		0		0		0		0		//Scroll of Hell Fire
+	15		10		0		255		0		0		0		0		0		//Scroll of Power Wave
+	15		11		0		255		0		0		0		0		0		//Scroll of Aqua Beam
+end

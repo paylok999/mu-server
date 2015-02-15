@@ -1,0 +1,29 @@
+//############################################################
+//# -- INTERNATIONAL GAMING CENTER NETWORK
+//# -- www.igc-network.com
+//# -- (C) 2010-2014 IGC-Network (R)
+//# ---------------------------------------------------------
+//# -- Modify if you know what you do only!
+//# -- File is a part of IGCN Group MuOnline Server files.
+//############################################################
+
+
+// Prohibited symbols file, one per line, in quotas
+
+// System does not have an effect on existing character or guild
+// with prohibited symbol in name, only newly created.
+
+// IMPORTANT: File must be saved with UTF-8 Without BOM encoding
+
+// [1] - Symbol
+// [2] - Apply to Chat in Game, 0/1
+// [3] - Apply to Character Name, 0/1
+// [4] - Apply to Guild Name, 0/1
+
+// ================================
+//	[1]		[2]		[3]		[4]
+// ================================
+// --------------------------------
+0 // DO NOT REMOVE SECTION NUMBER
+//	"@" 	1 		1 		1
+end

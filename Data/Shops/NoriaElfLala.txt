@@ -1,0 +1,68 @@
+//############################################################
+//# -- INTERNATIONAL GAMING CENTER NETWORK
+//# -- www.igc-network.com
+//# -- (C) 2010-2014 IGC-Network (R)
+//# ---------------------------------------------------------
+//# -- Modify if you know what you do only!
+//# -- File is a part of IGCN Group MuOnline Server files.
+//############################################################
+
+// For ItemCat and ItemIdx refer to '\Data\Items\ItemListSettings(_ex700).ini'
+// Lvl: 0-15
+// Durability: 0-255 (NOTE: some Items max durability is lower than maximum possible - 255)
+// Skill: 0, 1
+// Luck: 0, 1
+// Opt: 0-7 (Opt * 4, example, Opt -> 7 * 4 = Item Option +28
+// Exc: 0	= No Exc options, or sum of below values (63 - Full of Excellent):
+//		1	= Mana recovery after Monster hunt +Mana/8
+//		2	= Health recovery after Monster hunt +HP/8
+//		4	= +7 Speed
+//		8	= More Damage +2%
+//		16	= More Damage +Level/20
+//		32	= Excellent Damage Rate +10%
+// Ancient (item must be added to set items (ancients), otherwise option will be ignored:
+//		0	= No Ancient
+//		5	= First Set type (+5 Stamina)
+//		6	= Second Set type (+5 Stamina)
+//		9	= First Set type (+10 Stamina)
+//		10	= Second Set type (+10 Stamina)
+
+// ====================================================================================
+// ItemCat	ItemIdx	Lvl     Dur   Skill    Luck    Opt     Exc	Ancient		Description
+// ====================================================================================
+// ------------------------------------------------------------------------------------
+	14		0		0		1		0		0		0		0		0		// Apple
+	14		0		0		15		0		0		0		0		0		// Apple
+	14		1		0		1		0		0		0		0		0		// Small Healing Potion
+	14		1		0		15		0		0		0		0		0		// Small Healing Potion
+	14		2		0		1		0		0		0		0		0		// Medium Healing Potion
+	14		2		0		15		0		0		0		0		0		// Medium Healing Potion
+	14		4		0		1		0		0		0		0		0		// Small Mana Potion
+	14		4		0		15		0		0		0		0		0		// Small Mana Potion
+	14		5		0		1		0		0		0		0		0		// Medium Mana Potion
+	14		5		0		15		0		0		0		0		0		// Medium Mana Potion
+	12		8		0		255		0		0		0		0		0		// Healing Orb
+	12		9		0		255		0		0		0		0		0		// Orb of Greater Defense
+	12		10		0		255		0		0		0		0		0		// Orb of Greater Damage
+	12		11		0		255		0		0		0		0		0		// Orb of Summoning
+	12		11		1		255		0		0		0		0		0		// Orb of Summoning
+	12		11		2		255		0		0		0		0		0		// Orb of Summoning
+	12		11		3		255		0		0		0		0		0		// Orb of Summoning
+	12		11		4		255		0		0		0		0		0		// Orb of Summoning
+	4		7		1		255		0		0		0		0		0		// Bolts
+	4		7		2		255		0		0		0		0		0		// Bolts
+	4		7		3		255		0		0		0		0		0		// Bolts
+	4		15		1		255		0		0		0		0		0		// Arrows
+	4		15		2		255		0		0		0		0		0		// Arrows
+	4		15		3		255		0		0		0		0		0		// Arrows
+	7		10		3		255		0		1		3		0		0		// Vine Helm
+	8		10		3		255		0		1		3		0		0		// Vine Armor
+	9		10		3		255		0		1		3		0		0		// Vine Pants
+	10		10		3		255		0		1		3		0		0		// Vine Gloves
+	11		10		3		255		0		1		3		0		0		// Vine Boots
+	7		11		3		255		0		1		3		0		0		// Silk Helm
+	8		11		3		255		0		1		3		0		0		// Silk Armor
+	9		11		3		255		0		1		3		0		0		// Silk Pants
+	10		11		3		255		0		1		3		0		0		// Silk Gloves
+	11		11		3		255		0		1		3		0		0		// Silk Boots
+end

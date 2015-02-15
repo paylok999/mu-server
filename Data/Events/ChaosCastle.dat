@@ -1,0 +1,89 @@
+//############################################################
+//# -- INTERNATIONAL GAMING CENTER NETWORK
+//# -- www.igc-network.com
+//# -- (C) 2010-2014 IGC-Network (R)
+//# ---------------------------------------------------------
+//# -- Modify if you know what you do only!
+//# -- File is a part of IGCN Group MuOnline Server files.
+//############################################################
+
+// For More Settings about Chaos Castle refer to '\IGCData\Events\IGC_ChaosCastle.ini'
+
+// -- Chaos Castle time settings ----------------------------------
+// ================================================================
+// Time will    | Event(Min) | Time to close after the weapon
+// be open(Min) | Duration   | is delivered to the Archangel(min)
+// ================================================================
+// ----------------------------------------------------------------
+0 // DO NOT REMOVE SECTION NUMBER
+		5				10					1
+end
+
+// -- Configuration and range to drop items disappear -----------
+// ==============================================================
+// Item drop rate       |  Exc Item        |  Time for Items
+// (gItemDropPer(10)/n) |  Drop Rate(1/n)  |  to disappear
+// ==============================================================
+// --------------------------------------------------------------
+1 // DO NOT REMOVE SECTION NUMBER
+		100					1200			0
+end
+
+// -- Start Hours ---
+// ==================
+// Hour		Minute		// Event Type?
+// ==================
+// ------------------
+2 // DO NOT REMOVE SECTION NUMBER
+	1		00
+	3		00
+	5		00
+	7		00
+	9		00
+	11		00
+	13		00
+	15		00
+	17		00
+	19		00
+	21		00
+	23		00
+end
+
+
+// -- Experience Multiplier ----------------
+// =========================================
+// [Castle Level]	Experience	Description
+// =========================================
+// -----------------------------------------
+4 // DO NOT REMOVE SECTION NUMBER
+	0				1.0		// Chaos Castle 1
+	1				1.0		// Chaos Castle 2
+	2				1.0		// Chaos Castle 3
+	3				1.0		// Chaos Castle 4
+	4				1.0		// Chaos Castle 5
+	5				1.0		// Chaos Castle 6
+	6				1.0		// Chaos Castle 7
+end
+
+
+
+// First Prize - Jewel of Soul or Jewel of Creation
+// Second Prize - Jewel of Bless or Jewel of Life
+// Third Prize - BoL & Set Item
+
+// Rand from 100%
+// 3rd Prize Rate = Sum of 1st Prize Rate and 2nd Prize rate subtracted from the 100
+// Example: [1st Prize Rate] = 10 and [2nd Prize Rate] = 20
+// Total: 100(%) - [1st Prize Rate: 10(%)] - [2nd Prize Rate: 20(%)] = [3rd Prize Rate: 70%]
+// If result is bigger than [1st Prize Rate] but smaller than [2nd Prize Rate] then rewards [2nd Prize] - Jewel of Life or Jewel of Bless
+// If result is smaller than [1st Prize Rate] value it rewards [1st Prize] - Jewel of Soul or Jewel of Creation
+// Otherwise it reward Set Item (Ancient)
+
+// -- Reward Chance Rate Settings --------------------------------------
+// =====================================================================
+// [First Prize]	[Second Prize]	[Description]
+// =====================================================================
+// ---------------------------------------------------------------------
+5 // DO NOT REMOVE SECTION NUMBER
+	10				20				// [Third Prize Rate] is 70% in that case
+end

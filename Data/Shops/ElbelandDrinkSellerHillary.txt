@@ -1,0 +1,59 @@
+w//############################################################
+//# -- INTERNATIONAL GAMING CENTER NETWORK
+//# -- www.igc-network.com
+//# -- (C) 2010-2014 IGC-Network (R)
+//# ---------------------------------------------------------
+//# -- Modify if you know what you do only!
+//# -- File is a part of IGCN Group MuOnline Server files.
+//############################################################
+
+// For ItemCat and ItemIdx refer to '\Data\Items\ItemListSettings(_ex700).ini'
+// Lvl: 0-15
+// Durability: 0-255 (NOTE: some Items max durability is lower than maximum possible - 255)
+// Skill: 0, 1
+// Luck: 0, 1
+// Opt: 0-7 (Opt * 4, example, Opt -> 7 * 4 = Item Option +28
+// Exc: 0	= No Exc options, or sum of below values (63 - Full of Excellent):
+//		1	= Mana recovery after Monster hunt +Mana/8
+//		2	= Health recovery after Monster hunt +HP/8
+//		4	= +7 Speed
+//		8	= More Damage +2%
+//		16	= More Damage +Level/20
+//		32	= Excellent Damage Rate +10%
+// Ancient (item must be added to set items (ancients), otherwise option will be ignored:
+//		0	= No Ancient
+//		5	= First Set type (+5 Stamina)
+//		6	= Second Set type (+5 Stamina)
+//		9	= First Set type (+10 Stamina)
+//		10	= Second Set type (+10 Stamina)
+
+// ====================================================================================
+// ItemCat	ItemIdx	Lvl     Dur   Skill    Luck    Opt     Exc	Ancient		Description
+// ====================================================================================
+// ------------------------------------------------------------------------------------
+// Potions and Misc
+	14		0		0		15		0		0		0		0		0		// Apple
+	14		8		0		15		0		0		0		0		0		// Antidote
+	14		1		0		15		0		0		0		0		0		// Small Healing Potion
+	14		2		0		15		0		0		0		0		0		// Medium Healing Potion
+	14		3		0		15		0		0		0		0		0		// Large Healing Potion
+	14		4		0		15		0		0		0		0		0		// Small Mana Potion
+	14		5		0		15		0		0		0		0		0		// Medium Mana Potion
+	14		6		0		15		0		0		0		0		0		// Large Mana Potion
+	14		9		0		255		0		0		0		0		0		// Alcohol
+	13		29		0		255		0		0		0		0		0		// Armor of Guardman
+	14		20		0		255		0		0		0		0		0		// Remedy of Love
+
+// Mistery Set
+	7		39		3		255		0		1		3		0		0		// Violent Wind Helm
+	8		39		3		255		0		1		3		0		0		// Violent Wind Armor
+	9		39		3		255		0		1		3		0		0		// Violent Pants
+	10		39		3		255		0		1		3		0		0		// Violent Gloves
+	11		39		3		255		0		1		3		0		0		// Violent Boots
+
+// Spells
+	15		6		0		255		0		0		0		0		0		// Ice Spell
+	15		10		0		255		0		0		0		0		0		// Power Wave Spell
+	15		3		0		255		0		0		0		0		0		// Fireball Spell
+	15		1		0		255		0		0		0		0		0		// Meteorite Spell
+end

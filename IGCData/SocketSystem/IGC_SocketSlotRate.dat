@@ -1,0 +1,35 @@
+//############################################################
+//# -- INTERNATIONAL GAMING CENTER NETWORK
+//# -- www.igc-network.com
+//# -- (C) 2010-2014 IGC-Network (R)
+//# ---------------------------------------------------------
+//# -- Modify if you know what you do only!
+//# -- File is a part of IGCN Group MuOnline Server files.
+//############################################################
+
+// [1] - Item Group (ItemListSettings(_ex700).ini)
+// [2] - Success Rate for 1 slot, n/10000, can be 0
+// [3] - Success Rate for 2 slots, n/10000, can be 0
+// [4] - Success Rate for 3 slots, n/10000, can be 0
+// [5] - Success Rate for 4 slots, n/10000, can be 0
+// [6] - Success Rate for 5 slots, n/10000, can be 0
+// [7] - Description
+
+// -- Socket Count Drop Rate control per Item Group type ---------------------------------
+// =======================================================================================
+//	[1]			[2]			[3]			[4]			[5]			[6]			[7]
+// =======================================================================================
+// ---------------------------------------------------------------------------------------
+0 // DO NOT REMOVE SECTION NUMBER
+	0			6000		4000		3000		0		0			// Swords
+	2			6000		4000		3000		0		0			// Axes
+	3			6000		4000		3000		0		0			// Maces
+	4			4000		2000		1500		0			0			// Spears
+	5			6000		4000		3000		0		0			// Bows & Cross Bows
+	6			6000		4000		3000		0		0			// Staffs
+	7			6000		4000		3000		0		0			// Shield
+	8			6000		4000		3000		0		0			// Helmets
+	9			6000		4000		3000		0		0			// Armors
+	10			6000		4000		3000		0		0			// Pants
+	11			6000		4000		3000		0		0			// Boots
+end

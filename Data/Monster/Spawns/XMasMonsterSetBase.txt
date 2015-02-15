@@ -1,0 +1,24 @@
+//############################################################
+//# -- INTERNATIONAL GAMING CENTER NETWORK
+//# -- www.igc-network.com
+//# -- (C) 2010-2014 IGC-Network (R)
+//# ---------------------------------------------------------
+//# -- Modify if you know what you do only!
+//# -- File is a part of IGCN Group MuOnline Server files.
+//############################################################
+
+// =====================================================================
+//	Mob		Map		Range	X		Y		Dir		Description
+// =====================================================================
+// ---------------------------------------------------------------------
+0
+	466		2		0		166		41		-1		// Cursed Goblin
+	466		2		0		167		40		-1		// Cursed Goblin
+	466		2		0		165		42		-1		// Cursed Goblin
+	466		2		0		168		43		-1		// Cursed Goblin
+	466		2		0		169		44		-1		// Cursed Goblin
+	466		2		0		161		45		-1		// Cursed Goblin
+	466		2		0		162		46		-1		// Cursed Goblin
+	466		2		0		163		40		-1		// Cursed Goblin
+	476		2		0		165		40		-1		// Cursed Santa Claus 
+end

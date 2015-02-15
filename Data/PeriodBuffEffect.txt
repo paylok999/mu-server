@@ -1,0 +1,25 @@
+//############################################################
+//# -- INTERNATIONAL GAMING CENTER NETWORK
+//# -- www.igc-network.com
+//# -- (C) 2010-2014 IGC-Network (R)
+//# ---------------------------------------------------------
+//# -- Modify if you know what you do only!
+//# -- File is a part of IGCN Group MuOnline Server files.
+//############################################################
+
+// Buff Reward from specified Arca Battle Tower and penalty for failing
+
+// ExpiryDate always 0 - set by GameServer
+
+// ======================================================================================================
+// Index		BuffIndex	EffectType1		EffectType2		ExpiryDate		Duration(Sec)	Description
+// ======================================================================================================
+
+0 // DO NOT REMOVE SECTION NUMBER
+	179			0			20				0				0				604800			// Fire Tower
+	180			0			20				0				0				604800			// Water Tower
+	181			55			5				0				0				604800			// Earth Tower
+	182			85			20				0				0				604800			// Wind Tower
+	183			86			10				0				0				604800			// Darkness Tower
+	184			20			0				0				0				90				// Resurrection Penalty
+end

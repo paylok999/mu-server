@@ -1,0 +1,22 @@
+//############################################################
+//# -- INTERNATIONAL GAMING CENTER NETWORK
+//# -- www.igc-network.com
+//# -- (C) 2010-2014 IGC-Network (R)
+//# ---------------------------------------------------------
+//# -- Modify if you know what you do only!
+//# -- File is a part of IGCN Group MuOnline Server files.
+//############################################################
+
+// NOTE: Adding Official Sockets to this list will lead range of issues
+// For Item Group and Index refer to '\Data\Items\ItemListSettings(_ex700).ini'
+
+// It is necessary to edit item Type (3) in item_xxx.bmd (Client Side)
+// and ItemListSettings(_ex700).ini (Server Side) for any item added to this list to consider it as Socket
+
+// =============================
+// Item Group		Item Index
+// =============================
+// -----------------------------
+0 // DO NOT REMOVE SECTION NUMBER
+
+end

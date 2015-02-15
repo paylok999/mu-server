@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == INTERNATIONAL GAMING CENTER NETWORK
+// == www.igc-network.com
+// == (C) 21.0-2014 IGC-Network (R)
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// == Modify if you know what you do only!
+// == File is a part of IGCN Group MuOnline Server files.
+// ============================================================
+
+// STRICTLY NO COMMENTS INSIDE TAGS 
+
+enabled				~ Enables or disables the system, 0/1
+id					~ Unique value, once per file only
+resetsMin			~ Start resets range for the rule
+resetsMax			~ End reset range for the rule
+levelMin			~ Start level range for the rule
+levelMax			~ End level range for the rule 
+ExpMultiplier		~ Regular Experience multiplier
+MLExp				~ Master Experience multiplier
+
+If case of duplicated resets/levels ranges and different multipliers rule located higher will be applied
+-->	
+<DynamicExpSystem>
+	<RangeList enabled="0">
+		<range id="1" resetsMin="0" resetsMax="0" levelMin="1" levelMax="50" ExpMultiplier="1.1" MLExp="1.0" />
+		<range id="2" resetsMin="0" resetsMax="0" levelMin="51" levelMax="100" ExpMultiplier="1.3" MLExp="1.0" />
+		<range id="3" resetsMin="0" resetsMax="0" levelMin="101" levelMax="200" ExpMultiplier="1.5" MLExp="1.0" />
+		<range id="4" resetsMin="0" resetsMax="0" levelMin="201" levelMax="400" ExpMultiplier="1.8" MLExp="1.0" />
+		<range id="5" resetsMin="0" resetsMax="0" levelMin="401" levelMax="550" ExpMultiplier="1.0" MLExp="1.8" />
+		<range id="6" resetsMin="0" resetsMax="0" levelMin="551" levelMax="702" ExpMultiplier="1.0" MLExp="2.2" />
+		
+		<range id="7" resetsMin="1" resetsMax="2" levelMin="1" levelMax="50" ExpMultiplier="1.1" MLExp="1.0" />
+		<range id="8" resetsMin="1" resetsMax="2" levelMin="51" levelMax="100" ExpMultiplier="1.1" MLExp="1.0" />
+		<range id="9" resetsMin="1" resetsMax="2" levelMin="101" levelMax="200" ExpMultiplier="1.1" MLExp="1.0" />
+		<range id="10" resetsMin="1" resetsMax="2" levelMin="201" levelMax="400" ExpMultiplier="1.1" MLExp="1.0" />
+		<range id="11" resetsMin="1" resetsMax="2" levelMin="401" levelMax="550" ExpMultiplier="1.0" MLExp="1.2" />
+		<range id="12" resetsMin="1" resetsMax="2" levelMin="551" levelMax="702" ExpMultiplier="1.0" MLExp="1.4" />
+		
+		<range id="13" resetsMin="3" resetsMax="4" levelMin="1" levelMax="50" ExpMultiplier="1.2" MLExp="1.0" />
+		<range id="14" resetsMin="3" resetsMax="4" levelMin="51" levelMax="100" ExpMultiplier="1.2" MLExp="1.0" />
+		<range id="15" resetsMin="3" resetsMax="4" levelMin="101" levelMax="200" ExpMultiplier="1.2" MLExp="1.0" />
+		<range id="16" resetsMin="3" resetsMax="4" levelMin="201" levelMax="400" ExpMultiplier="1.2" MLExp="1.0" />
+		<range id="17" resetsMin="3" resetsMax="4" levelMin="401" levelMax="550" ExpMultiplier="1.0" MLExp="1.3" />
+		<range id="18" resetsMin="3" resetsMax="4" levelMin="551" levelMax="702" ExpMultiplier="1.0" MLExp="1.5" />
+		
+		<range id="19" resetsMin="5" resetsMax="6" levelMin="1" levelMax="50" ExpMultiplier="1.3" MLExp="1.0" />
+		<range id="20" resetsMin="5" resetsMax="6" levelMin="51" levelMax="100" ExpMultiplier="1.3" MLExp="1.0" />
+		<range id="21" resetsMin="5" resetsMax="6" levelMin="101" levelMax="200" ExpMultiplier="1.3" MLExp="1.0" />
+		<range id="22" resetsMin="5" resetsMax="6" levelMin="201" levelMax="400" ExpMultiplier="1.3" MLExp="1.0" />
+		<range id="23" resetsMin="5" resetsMax="6" levelMin="401" levelMax="550" ExpMultiplier="1.0" MLExp="1.4" />
+		<range id="24" resetsMin="5" resetsMax="6" levelMin="551" levelMax="702" ExpMultiplier="1.0" MLExp="1.5" />
+		
+		<range id="25" resetsMin="7" resetsMax="8" levelMin="1" levelMax="50" ExpMultiplier="1.4" MLExp="1.0" />
+		<range id="26" resetsMin="7" resetsMax="8" levelMin="51" levelMax="100" ExpMultiplier="1.4" MLExp="1.0" />
+		<range id="27" resetsMin="7" resetsMax="8" levelMin="101" levelMax="200" ExpMultiplier="1.4" MLExp="1.0" />
+		<range id="28" resetsMin="7" resetsMax="8" levelMin="201" levelMax="400" ExpMultiplier="1.4" MLExp="1.0" />
+		<range id="29" resetsMin="7" resetsMax="8" levelMin="401" levelMax="550" ExpMultiplier="1.0" MLExp="1.5" />
+		<range id="30" resetsMin="7" resetsMax="8" levelMin="551" levelMax="702" ExpMultiplier="1.0" MLExp="1.6" />
+		
+		<range id="31" resetsMin="9" resetsMax="6" levelMin="1" levelMax="50" ExpMultiplier="1.4" MLExp="1.0" />
+		<range id="32" resetsMin="9" resetsMax="6" levelMin="51" levelMax="100" ExpMultiplier="1.4" MLExp="1.0" />
+		<range id="33" resetsMin="9" resetsMax="6" levelMin="101" levelMax="200" ExpMultiplier="1.4" MLExp="1.0" />
+		<range id="34" resetsMin="9" resetsMax="6" levelMin="201" levelMax="400" ExpMultiplier="1.4" MLExp="1.0" />
+		<range id="35" resetsMin="9" resetsMax="6" levelMin="401" levelMax="550" ExpMultiplier="1.0" MLExp="1.6" />
+		<range id="36" resetsMin="9" resetsMax="6" levelMin="551" levelMax="702" ExpMultiplier="1.0" MLExp="1.7" />
+	</RangeList>
+</DynamicExpSystem>

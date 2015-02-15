@@ -1,0 +1,42 @@
+//############################################################
+//# -- INTERNATIONAL GAMING CENTER NETWORK
+//# -- www.igc-network.com
+//# -- (C) 2010-2014 IGC-Network (R)
+//# ---------------------------------------------------------
+//# -- Modify if you know what you do only!
+//# -- File is a part of IGCN Group MuOnline Server files.
+//############################################################
+
+// System drops random Ancient Item according to below configuration
+
+// Item Skill Values [0: No Skill, 1: with Skill, -1: Random [Chance: 50/50]
+// Item Luck Values [0: No Luck, 1: with Luck, -1: Random [Chance: 50/50]
+// Item OPTION Values [0: No Option, 1: with Option, -1: Random [Chance: 50/50]
+// Item Exc Values:
+//		0	= No Exc options, or sum of below values
+//		1	= Mana recovery after Monster hunt +Mana/8
+//		2	= Health recovery after Monster hunt +HP/8
+//		4	= +7 Speed
+//		8	= More Damage +2%
+//		16	= More Damage +Level/20
+//		32	= Excellent Damage Rate +10%
+//		-1	= Random Exc Options]
+// --------------------------------------------------------
+//		63	= Full of Excellent
+// --------------------------------------------------------
+// Map Number Values [Specified Map Number or -1: All Maps]
+// Monster ID Values [Specified Monster Number or -1: All Monsters]
+// Max Monster Level Values [150: Max]
+// Drop rate Values [n/10000]
+
+
+
+0 // DO NOT REMOVE SECTION NUMBER
+
+// ======================================================================================================================================================
+// MAP NUMBER | MIN MONSTER LEVEL | MAX MONSTER LEVEL | MONSTER ID | MIN LEVEL | MAX LEVEL | ITEM SKILL | ITEM LUCK | ITEM OPTION | ITEM EXC | DROP RATE
+// ======================================================================================================================================================
+// ------------------------------------------------------------------------------------------------------------------------------------------------------
+		0				 -1 					-1 				275 		0			0				1			1			1			0			10000
+		31				 0 					0 				-1 		    0			0				1			-1			0			0			5000
+end

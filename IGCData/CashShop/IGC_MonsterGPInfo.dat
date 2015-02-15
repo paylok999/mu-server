@@ -1,0 +1,26 @@
+//############################################################
+//# -- INTERNATIONAL GAMING CENTER NETWORK
+//# -- www.igc-network.com
+//# -- (C) 2010-2014 IGC-Network (R)
+//# ---------------------------------------------------------
+//# -- Modify if you know what you do only!
+//# -- File is a part of IGCN Group MuOnline Server files.
+//############################################################
+
+// Adds Coin Points per Monster kill
+// For Monster ID refer to '\Data\Monster\Settings\Monster(_ex700).txt'
+
+// Coin Type:
+//		0 - WCoinC
+//		1 - WCoinP
+//		2 - Goblin Point
+// Map Number: -1 ~ All Maps
+
+// ====================================================================
+// MONSTERID	MAPNUMBER	COUNT	COINTYPE	DESCRIPTION
+// ====================================================================
+// --------------------------------------------------------------------
+1 // DO NOT REMOVE SECTION NUMBER
+	//3			0			12		2			// Example entry
+
+end

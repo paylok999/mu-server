@@ -1,0 +1,167 @@
+//############################################################
+//# -- INTERNATIONAL GAMING CENTER NETWORK
+//# -- www.igc-network.com
+//# -- (C) 2010-2014 IGC-Network (R)
+//# ---------------------------------------------------------
+//# -- Modify if you know what you do only!
+//# -- File is a part of IGCN Group MuOnline Server files.
+//############################################################
+
+// Arca War Event General Settings
+
+// -- Minimum Guild Members to join Arca Battle --
+// ===============================================
+// GuildMembers			MapIndex (of the event)
+// ===============================================
+// -----------------------------------------------
+0 // DO NOT REMOVE SECTION NUMBER
+	10				92
+end
+
+
+// -- Arca War Schedule Day (1: ON 0: OFF) ----------------
+// ========================================================
+// Mon		Tue		Wed		Thu		Fri		Sat		Sun
+// ========================================================
+// --------------------------------------------------------
+1 // DO NOT REMOVE SECTION NUMBER
+
+	1		1		1		1		1		1		1
+end
+
+
+// [1] Master Registration Time
+// [2] Guild Registration Time
+// [3] Progress Wait Time
+// [4] Party Wait Time
+// [5] Event Play Time
+// [6] Channel End Time
+
+// -- Arca Battle Timing Settings ------------------------------
+// =============================================================
+// 	[1]		[2]		[3]		[4]		[5]		[6]		
+// =============================================================
+// -------------------------------------------------------------
+2 // DO NOT REMOVE SECTION NUMBER
+	10		10		3		5		30		10		// (minutes)
+end
+
+
+// -- Arca Battle event timing schedule ---------
+// ==============================================
+// Hour (00-24)		Minute (0-60)		??
+// ==============================================
+// ----------------------------------------------
+3 // DO NOT REMOVE SECTION NUMBER
+	10				45					0
+end
+
+
+// -- Obelisk Information (Groups starting from 1) ---------------------------------------------------------------------------
+// ===========================================================================================================================
+// GroupNumber		MapNumber		MonsterIndex		X			Y			OccupyHP		RegenTime(ms)	Description
+// ===========================================================================================================================
+// ---------------------------------------------------------------------------------------------------------------------------
+5 // DO NOT REMOVE SECTION NUMBER
+	1				92				598					89			41			500000			300000			// Fire Tower
+	2				92				598					188			101			500000			300000			// Fire Tower
+end
+
+
+// -- Obelisks Position (3 per Group required) -----
+// =================================================
+// GroupNumber 		MapNumber	X			Y
+// =================================================
+// -------------------------------------------------
+6 // DO NOT REMOVE SECTION NUMBER
+	1				92			89			58
+	1				92			84			30
+	1				92			104			36
+	2				92			175			102
+	2				92			192			110
+	2				92			200			96
+end
+
+
+// -- Monster Respawn Settings - respawn time after death of the monsters -------
+// ==============================================================================
+// GroupNumber		MapNumber	MonsterCount	GroupRegen_TimeType (minutes)
+// ==============================================================================
+// ------------------------------------------------------------------------------		
+7 // DO NOT REMOVE SECTION NUMBER
+	0				92			10				10
+	1				92			10				10
+end
+
+
+// BeginX, BeginY, EndX, EndY - Area the specified group will spawn on:
+//				- BeginX: start point X coordinate of the Spawn area (BeginX must be greater than EndX)
+//				- BeginY: start point Y coordinate of the Spawn area (BeginY must be greater than EndY)
+//				- EndX: end point X coordinate of the Spawn Area (EndX must be lower than BeginX)
+//				- EndX: end point X coordinate of the Spawn Area (EndY must be lower than BeginY)
+
+// -- Appearance of Monster Positions Range - (GroupRegen_Spot) --
+// ===============================================================
+// GroupNumber 	BeginX		BeginY		EndX		EndY	
+// ===============================================================
+// ---------------------------------------------------------------
+8 // DO NOT REMOVE SECTION NUMBER
+	0			77			31			87			38
+	0			84			43			98			45
+	0			90			39			97			45
+	0			87			48			98			55
+	1			178			101			190			100
+	1			188			94			201			98
+	1			173			101			188			105
+	1			186			89			195			99
+end
+
+
+// -- Monster Type (GroupRegen_Member ) -------------
+// ==================================================
+// GroupNumber		MonsterIndex		Description
+// ==================================================
+// --------------------------------------------------
+9 // DO NOT REMOVE SECTION NUMBER
+	0				592					// Undine
+	0				593					// Salamander
+	0				594					// Sylphid
+	0				595					// Gnome
+	0				596					// Hellraiser
+// --------------------------------------------------
+	1				592					// Undine
+	1				593					// Salamander
+	1				594					// Sylphid
+	1				595					// Gnome
+	1				596					// Hellraiser
+end
+
+
+// Set the Arcachon inlet random hunting dispute 
+// GroupNumber:
+//			- 0: Alkmaar (hunting 1)
+//			- 1: Right carbide (hunting 2)
+// MapNumber - Map Number of where to spawn Monster Groups
+// BeginX, BeginY, EndX, EndY - Area the specified group will spawn on:
+//					- BeginX: start point X coordinate of the Spawn area (BeginX must be greater than EndX)
+//					- BeginY: start point Y coordinate of the Spawn area (BeginY must be greater than EndY)
+//					- EndX: end point X coordinate of the Spawn Area (EndX must be lower than BeginX)
+//					- EndX: end point X coordinate of the Spawn Area (EndY must be lower than BeginY)
+// Description - entry description
+
+// ===============================================================================================
+// GroupNumber		MapNumber		BeginX		BeginY		EndX		EndY		Description
+// ===============================================================================================
+// -----------------------------------------------------------------------------------------------
+10 // DO NOT REMOVE SECTION NUMBER
+	0				92				77			118			87			130			// Left Road
+	0				92				110			153			123			163			// Entrance
+	0				92				133			139			145			150			// Right Road
+	0				92				169			37			179			47			// Bottom-Right
+	0				92				12			18			25			34			// Bottom-Left
+	1				92				237			42			246			53			// Bottom-Right
+	1				92				207			205			218			214			// Top-Right
+	1				92				167			199			175			211			// Right in the Middle
+	1				92				151			198			156			200			// Entrance
+	1				92				185			148			194			157			// Center
+end

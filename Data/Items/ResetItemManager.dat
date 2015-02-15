@@ -1,0 +1,19 @@
+//############################################################
+//# -- INTERNATIONAL GAMING CENTER NETWORK
+//# -- www.igc-network.com
+//# -- (C) 2010-2014 IGC-Network (R)
+//# ---------------------------------------------------------
+//# -- Modify if you know what you do only!
+//# -- File is a part of IGCN Group MuOnline Server files.
+//############################################################
+
+// Define resets count requirement for specified Item to be able to wear it
+// For Item Category and Index refer to '\Data\Items\ItemListSettings(_ex700).ini'
+
+// =====================================
+// ItemCat		ItemIdx		ResetsReq
+// =====================================
+// -------------------------------------
+0
+
+end

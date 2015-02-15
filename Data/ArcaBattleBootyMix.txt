@@ -1,0 +1,197 @@
+//############################################################
+//# -- INTERNATIONAL GAMING CENTER NETWORK
+//# -- www.igc-network.com
+//# -- (C) 2010-2014 IGC-Network (R)
+//# ---------------------------------------------------------
+//# -- Modify if you know what you do only!
+//# -- File is a part of IGCN Group MuOnline Server files.
+//############################################################
+
+// Arca Battle Combination Rewards Settings
+// If changing section 0 it is necessary to apply changes to \Data\Local\ArcaBattleBootyMix.bmd on Game Client side
+
+// ==================================================================================================
+// RewardIndex		MinimumCount	MaximumCount		BaseRate (default)		AddRate (increase)
+// ==================================================================================================
+// --------------------------------------------------------------------------------------------------
+0 // DO NOT REMOVE SECTION NUMBER
+	1				1				10					55						5
+	2				11				20					55						5
+	3				21				30					55						5
+	4				31				40					55						5
+	5				41				50					50						5
+	6				51				60					50						5
+	7				61				70					50						5
+	8				71				80					45						5
+	9				81				90					45						5
+	10				91				100					45						5
+end
+
+
+// -- Level [1] Combination Rewards -----------------------------------------------------------------
+// ==================================================================================================
+// Group	Index		Level		Durability		Probability		Description	
+// ==================================================================================================
+// --------------------------------------------------------------------------------------------------
+1 // DO NOT REMOVE SECTION NUMBER
+
+	13		0			0			0				200000			// Guardian Angel
+	13		1			0			0				200000			// Satan
+	13		2			0			0				200000			// Horn of Uniria
+	14		37			0			0				200000			// Large SD Potion
+	14		40			0			0				150000			// Large Complex Potion
+	12		141			0			0				50000			// Jewel of Chaos Bundle +1
+end
+
+
+// -- Level [2] Combination Rewards -----------------------------------------------------------------
+// ==================================================================================================
+// Group	Index		Level		Durability		Probability		Description
+// ==================================================================================================
+// --------------------------------------------------------------------------------------------------
+2 // DO NOT REMOVE SECTION NUMBER
+	14		44			0			0				200000			// Higher Refining Stone
+	14		42			0			0				200000			// Jewel of Harmony
+	14		22			0			0				200000			// Jewel of Creation
+	12		15			0			0				200000			// Jewel of Chaos
+	12		150			0			0				150000			// Jewel Combination Frame
+	12		31			0			0				50000			// Bundle of Jewel of Soul +1
+end
+
+
+// -- Level [3] Combination Rewards -----------------------------------------------------------------
+// ==================================================================================================
+// Group	Index		Level		Durability		Probability		Description
+// ==================================================================================================
+// --------------------------------------------------------------------------------------------------
+3 // DO NOT REMOVE SECTION NUMBER
+	14		13			0			0				200000			// Jewel of Bless
+	14		14			0			0				250000			// Jewel of Soul
+	14		16			0			0				200000			// Jewel of Life
+	14		31			0			0				250000			// Jewel of Guardian
+	12		151			0			0				50000			// Spirit Powder
+	12		30			0			0				50000			// Bundle of Jewel of Bless +1
+end
+
+
+// -- Level [4] Combination Rewards -----------------------------------------------------------------
+// ==================================================================================================
+// Group	Index		Level		Durability		Probability		Description
+// ==================================================================================================
+// --------------------------------------------------------------------------------------------------
+4 // DO NOT REMOVE SECTION NUMBER
+	13		15			0			0				150000			// Fruits (Energy)
+	13		15			1			0				200000			// Fruits (Health)
+	13		15			2			0				200000			// Fruits (Agility)
+	13		15			3			0				200000			// Fruits (Strength)
+	13		15			4			0				200000			// Fruits (Command)
+	12		30			0			0				50000			// Bundle of Jewel of Bless +1
+end
+
+
+// -- Level [5] Combination Rewards -----------------------------------------------------------------
+// ==================================================================================================
+// Group	Index		Level		Durability		Probability		Description
+// ==================================================================================================
+// --------------------------------------------------------------------------------------------------
+5 // DO NOT REMOVE SECTION NUMBER
+	12		61			0			0				100000			// Seed (Water) - Block Rating Increase
+	12		61			1			0				100000			// Seed (Water) - Defense Increase
+	12		61			2			0				100000			// Seed (Water) - Shield Protection Increase
+	12		61			3			0				50000			// Seed (Water) - Damage reduction
+	12		61			4			0				50000			// Seed (Water) - Damage reflection
+	12		63			0			0				100000			// Seed (Wind) - Automatic Life recovery Increase
+	12		63			1			0				100000			// Seed (Wind) - Maximum Life Increase
+	12		63			2			0				100000			// Seed (Wind) - Maximum Mana Increase
+	12		63			3			0				50000			// Seed (Wind) - Automatic Mana recovery Increase
+	12		63			4			0				100000			// Seed (Wind) - Maximum AG Increase
+	12		63			5			0				100000			// Seed (Wind) - AG value Increase
+	14		53			0			10				50000			// Talisman of Luck
+end
+
+
+// -- Level [6] Combination Rewards -----------------------------------------------------------------
+// ==================================================================================================
+// Group	Index		Level		Durability		Probability		Description
+// ==================================================================================================
+// --------------------------------------------------------------------------------------------------
+6 // DO NOT REMOVE SECTION NUMBER
+	12		30			0			0				100000			// Bundle of Jewel of Bless +1
+	12		31			0			0				150000			// Bundle of Jewel of Soul +1
+	12		141			0			0				150000			// Jewel of Chaos Bundle +1
+	12		137			0			0				150000			// Jewel of Creation Bundle +1
+	12		136			0			0				150000			// Jewel of Life Bundle +1
+	12		138			0			0				150000			// Jewel of Guardian Bundle +1
+	12		140			0			0				150000			// Jewel of Harmony Bundle +1
+end
+
+
+// -- Level [7] Combination Rewards -----------------------------------------------------------------
+// ==================================================================================================
+// Group	Index		Level		Durability		Probability		Description
+// ==================================================================================================
+// --------------------------------------------------------------------------------------------------
+7 // DO NOT REMOVE SECTION NUMBER
+	12		62			0			0				150000			// Seed (Ice) - Monster destruction for the Life Increase
+	12		62			1			0				150000			// Seed (Ice) - Monster destruction for the Mana Increase
+	12		62			2			0				150000			// Seed (Ice) - Skill Attack Increase 
+	12		62			3			0				150000			// Seed (Ice) - Attack rating Increase 
+	12		62			4			0				150000			// Seed (Ice) - Item durability Increase
+	12		65			2			0				200000			// Seed (Earth) - Health Increase
+	14		53			0			10				50000			// Talisman of Luck
+end
+
+
+// -- Level [8] Combination Rewards -----------------------------------------------------------------
+// ==================================================================================================
+// Group	Index		Level		Durability		Probability		Description
+// ==================================================================================================
+// --------------------------------------------------------------------------------------------------
+8 // DO NOT REMOVE SECTION NUMBER
+	12		30			1			0				150000			// Bundle of Jewel of Bless +2
+	12		31			1			0				150000			// Bundle of Jewel of Soul +2
+	12		141			1			0				150000			// Jewel of Chaos Bundle +2
+	12		137			1			0				150000			// Jewel of Creation Bundle +2
+	12		136			1			0				100000			// Jewel of Life Bundle +2
+	12		138			1			0				150000			// Jewel of Guardian Bundle +2
+	12		140			1			0				149000			// Jewel of Harmony Bundle +2
+	13		53			0			0				1000			// Condor Feather
+end
+
+
+// -- Level [9] Combination Rewards -----------------------------------------------------------------
+// ==================================================================================================
+// Group	Index		Level		Durability		Probability		Description
+// ==================================================================================================
+// --------------------------------------------------------------------------------------------------
+9 // DO NOT REMOVE SECTION NUMBER
+	12		60			0			0				150000			// Seed (Fire) - (Level type)Attack/Wizardry Increase
+	12		60			1			0				150000			// Seed (Fire) - Attack speed Increase
+	12		60			2			0				150000			// Seed (Fire) - Maximum Attack/Wizardry Increase
+	12		60			3			0				150000			// Seed (Fire) - Minimum Attack/Wizardry Increase
+	12		60			4			0				100000			// Seed (Fire) - Attack/Wizardry Increase
+	12		60			5			0				100000			// Seed (Fire) - AG cost decrease
+	12		64			0			0				50000			// Seed (Lightning) - Excellent damage Increase
+	12		64			1			0				50000			// Seed (Lightning) - Excellent damage rate Increase
+	12		64			2			0				50000			// Seed (Lightning) - Critical damage Increase
+	12		64			3			0				50000			// Seed (Lightning) - Critical damage rate Increase
+	14		53			0			10				45000			// Talisman of Luck
+	13		53			0			0				5000			// Condor Feather
+end
+
+
+// -- Level [10] Combination Rewards ----------------------------------------------------------------
+// ==================================================================================================
+// Group	Index		Level		Durability		Probability		Description
+// ==================================================================================================
+// --------------------------------------------------------------------------------------------------
+10 // DO NOT REMOVE SECTION NUMBER
+	12		30			2			0				150000			// Bundle of Jewel of Bless +3
+	12		31			2			0				150000			// Bundle of Jewel of Soul +3
+	12		141			2			0				150000			// Jewel of Chaos Bundle +3
+	12		137			2			0				150000			// Jewel of Creation Bundle +3
+	12		136			2			0				100000			// Jewel of Life Bundle +3
+	12		138			2			0				150000			// Jewel of Guardian Bundle +3
+	12		140			2			0				140000			// Jewel of Harmony Bundle +3
+	13		53			0			0				10000			// Condor Feather
+end

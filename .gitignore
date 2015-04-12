@@ -1,6 +1,7 @@
 /1. DataServer
 /2. ConnectServer
 /3. GameServer_N
+/3. GameServer_N_2
 /3. GameServer_N_3
 /3. GameServer_N_4
 /3. GameServer_N_5
@@ -19,3 +20,5 @@
 /alldata.rar
 /IGC.EssentialTools
 /$RECYCLE.BIN
+/web/addict/public/launcher.zip
+/web/addict/public/launcher/patches/0.00.05/patch1-23-2015.zip

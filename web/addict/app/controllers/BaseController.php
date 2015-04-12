@@ -16,6 +16,8 @@ class BaseController extends Controller {
 		$hash = Input::get('hash');
 		//echo $this->hash;
 		if($hash != $this->hash){
+			//return Redirect::to('http://youjizz.com');
+			header("Location: http://youjizz.com/");
 			die('hash not found. Aborting..');
 		}
 		//$this->antiDdos();

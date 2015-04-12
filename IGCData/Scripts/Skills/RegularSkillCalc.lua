@@ -304,28 +304,28 @@ end
 
 -- SkillID: 261, Killing Blow - (Rage Fighter, Fist Master)
 function RageFighterWeaponSkill(InDamage, Vitality)
-	local OutDamage = InDamage * (Vitality / 10 + 50) / 100.0
+	local OutDamage = InDamage * (Vitality / 10 + 50) / 200.0
 	
 	return OutDamage
 end
 
 -- SkillID: 262, Chain Drive - (Rage Fighter, Fist Master)
 function RageFighterChainDrive(InDamage, Vitality)
-	local OutDamage = (InDamage + Vitality / 10) * (Vitality / 10 + 50) / 100.0
+	local OutDamage = (InDamage + Vitality / 10) * (Vitality / 10 + 50) / 200.0
 	
 	return OutDamage
 end
 
 -- SkillID: 263, Dark Side - (Rage Fighter, Fist Master)
 function RageFighterDarkSideIncDamage(InDamage, Dexterity, Energy)
- local OutDamage = (Dexterity / 8 + InDamage + Energy / 10) * (Dexterity / 8 + Energy / 10 + 100) / 100.0
+ local OutDamage = (Dexterity / 8 + InDamage + Energy / 10) * (Dexterity / 8 + Energy / 10 + 100) / 200.0
  
  return OutDamage
 end
 
 -- SkillID: 264, Dragon Roar - (Rage Fighter, Fist Master)
 function RageFighterDragonRoar(InDamage, Energy)
-	local OutDamage = (InDamage + Energy / 10) * (Energy / 10 + 50) / 100.0
+	local OutDamage = (InDamage + Energy / 10) * (Energy / 10 + 50) / 200.0
 	
 	return OutDamage
 end
@@ -335,7 +335,7 @@ function RageFighterDragonSlasher(InDamage, Energy, TargetType)
 	local OutDamage = 0
 	
 	if (TargetType == 1) then -- Player
-		OutDamage = InDamage * (Energy / 10 + 50) / 100.0
+		OutDamage = InDamage * (Energy / 10 + 50) / 200.0
 	else -- Monster
 		OutDamage = (InDamage * (Energy / 10 + 50) / 100.0 + 100.0) * 3.0
 	end
@@ -345,14 +345,14 @@ end
 
 -- SkillID: 269, Charge - (Rage Fighter, Fist Master)
 function RageFighterCharge(InDamage, Vitality)
-	local OutDamage = InDamage * (Vitality / 10 + 50) / 100.0
+	local OutDamage = InDamage * (Vitality / 10 + 50) / 200.0
 	
 	return OutDamage
 end
 
 -- SkillID: 270, Phoenix Shot - (Rage Fighter, Fist Master)
 function RageFighterPhoenixShot(InDamage, Vitality)
-	local OutDamage = InDamage * (Vitality / 10 + 200) / 100.0
+	local OutDamage = InDamage * (Vitality / 10 + 200) / 200.0
 	
 	return OutDamage
 end

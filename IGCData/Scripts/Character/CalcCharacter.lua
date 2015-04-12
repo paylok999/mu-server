@@ -146,8 +146,8 @@ function WizardMagicDamageCalc(Energy)
 	local MagicDamageMin = 0
 	local MagicDamageMax = 0
 	
-	MagicDamageMin = Energy / 9 -- Minimum Magic Damage
-	MagicDamageMax = Energy / 4 -- Maximum Magic Damage
+	MagicDamageMin = Energy / 6 -- Minimum Magic Damage
+	MagicDamageMax = Energy / 3 -- Maximum Magic Damage
 	
 	return MagicDamageMin, MagicDamageMax
 end

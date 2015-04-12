@@ -545,35 +545,35 @@ end
 
 -- SkillID: 554, Killing Blow Mastery - (Fist Master)
 function KillingBlow_Master(InDamage, Vitality)
- local OutDamage = InDamage * (Vitality / 10 + 50) / 100.0
+ local OutDamage = InDamage * (Vitality / 10 + 50) / 200.0
  
  return OutDamage
 end
 
 -- SkillID: 555, Beast Uppercut Mastery - (Fist Master)
 function BeastUppercut_Master(InDamage, Vitality)
- local OutDamage = InDamage * (Vitality / 10 + 50) / 100.0
+ local OutDamage = InDamage * (Vitality / 10 + 50) / 200.0
  
  return OutDamage
 end
 
 -- SkillID: 562, Chain Drive Mastery - (Fist Master)
 function ChainDrive_Master(InDamage, Vitality)
- local OutDamage = (InDamage + Vitality / 10) * (Vitality / 10 + 50) / 100.0
+ local OutDamage = (InDamage + Vitality / 10) * (Vitality / 10 + 50) / 200.0
  
  return OutDamage
 end
 
 -- SkillID: 563, Dark Side Strengthener - (Fist Master)
 function RageFighterDarkSideIncDamage(InDamage, Dexterity, Energy)
- local OutDamage = (Dexterity / 8 + InDamage + Energy / 10) * (Dexterity / 8 + Energy / 10 + 100) / 100.0
+ local OutDamage = (Dexterity / 8 + InDamage + Energy / 10) * (Dexterity / 8 + Energy / 10 + 100) / 200.0
  
  return OutDamage
 end
 
 -- SkillID: 561: Dragon Roar Mastery - (Fist Master)
 function DragonRoar_Master(InDamage, Energy)
- local OutDamage = (InDamage + Energy / 10) * (Energy / 10 + 50) / 100.0
+ local OutDamage = (InDamage + Energy / 10) * (Energy / 10 + 50) / 200.0
  
  return OutDamage
 end
@@ -583,7 +583,7 @@ function DragonSlasher_Level1(InDamage, SkillBonus, Energy, TargetType)
  local OutDamage = 0
  
  if (TargetType == 1) then -- User
- 	OutDamage = (InDamage + SkillBonus) * (Energy / 10 + 50) / 100.0
+ 	OutDamage = (InDamage + SkillBonus) * (Energy / 10 + 50) / 200.0
  else -- Monster
  	OutDamage = ((InDamage + SkillBonus) * (Energy / 10 + 50) / 100.0 + 100.0) * 3.0
  end
@@ -596,7 +596,7 @@ function DragonSlasher_Level2(InDamage, SkillBonus, Energy, TargetType)
  local OutDamage = 0
  
  if (TargetType == 1) then -- User
- 	OutDamage = (InDamage + SkillBonus) * (Energy / 10 + 50) / 100.0
+ 	OutDamage = (InDamage + SkillBonus) * (Energy / 10 + 50) / 200.0
  else -- Monster
  	OutDamage = ((InDamage + SkillBonus) * (Energy / 10 + 50) / 100.0 + 100.0) * 3.0
  end
@@ -606,7 +606,7 @@ end
 
 -- SkillID: 565, Blood Howling - (Fist Master)
 function BloodHowl_Level1(TargetHP)
- local SkillEffect = TargetHP * 5 / 100
+ local SkillEffect = TargetHP * 5 / 200
  local SkillSuccessRate = 10
  local SkillTime = 10
 
@@ -615,7 +615,7 @@ end
 
 -- SkillID: 567, Blood Howling Strengthener - (Fist Master)
 function BloodHowl_Level2(TargetHP)
- local SkillEffect = TargetHP * 5 / 100
+ local SkillEffect = TargetHP * 5 / 200
  local SkillSuccessRate = 10
  local SkillTime = 10
 

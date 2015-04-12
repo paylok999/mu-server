@@ -112,8 +112,6 @@ function LoadItemBag() -- Bags Load
 	AddItemBag(BAG_MONSTER, 0, 414,'Monster_(414)_Helper_Ellen') -- DropFunction /2/
 	AddItemBag(BAG_MONSTER, 0, 459,'Monster_(459)_Selupan') -- DropFunction /2/
 	AddItemBag(BAG_MONSTER, 0, 561,'Monster_(561)_Medusa') -- DropFunction /2/
-	AddItemBag(BAG_MONSTER, 0, 295,'Monster_(295)_Erohim') -- DropFunction /2/
-	AddItemBag(BAG_MONSTER, 0, 275,'Monster_(275)_Kundun') -- DropFunction /2/
 
 -- ====================================================================
 -- EventBags -- BagType, EventID, 0, 'FileName'
@@ -178,7 +176,7 @@ function CommonBagItemDrop(aIndex, MapNumber, X, Y)
 
 	local ItemLevel = GetBagItemLevel(ItemInfo.ItemMinLevel, ItemInfo.ItemMaxLevel)
 	local IsSkill = 0
-	local IsLuck = 1
+	local IsLuck = 0
 	local IsOption = 0
 	local IsExc = 0
 	local IsAncient = 0
@@ -335,7 +333,7 @@ function MonsterBagItemDrop(MonsterIndex, MapNumber, MonsterX, MonsterY, PlayerI
 
 	local ItemLevel = GetBagItemLevel(ItemInfo.ItemMinLevel, ItemInfo.ItemMaxLevel)
 	local IsSkill = 0
-	local IsLuck = 1
+	local IsLuck = 0
 	local IsOption = 0
 	local IsExc = 0
 	local IsAncient = 0
@@ -492,7 +490,7 @@ function EventBagItemDrop(MonsterIndex, MapNumber, MonsterX, MonsterY, PlayerInd
 
 	local ItemLevel = GetBagItemLevel(ItemInfo.ItemMinLevel, ItemInfo.ItemMaxLevel)
 	local IsSkill = 0
-	local IsLuck = 1
+	local IsLuck = 0
 	local IsOption = 0
 	local IsExc = 0
 	local IsAncient = 0
@@ -648,7 +646,7 @@ function EventBagMakeItem()
 
 	local ItemLevel = GetBagItemLevel(ItemInfo.ItemMinLevel, ItemInfo.ItemMaxLevel)
 	local IsSkill = 0
-	local IsLuck = 1
+	local IsLuck = 0
 	local IsOption = 0
 	local IsExc = 0
 	local IsAncient = 0
